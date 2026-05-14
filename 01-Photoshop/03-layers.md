@@ -41,3 +41,21 @@
     - the raster image's pixel data is stored in a file that persists in the software itself.
     - any resizing starts from this saved state of pixel data and not from the previous state.
     - this leads to achieving a 'vector-like' effect even though the image is not vector.
+
+# Bakcground/Foreground color
+- `D` for defualt values (black and white).
+- `X` for switching b/w chosen foreground and background colors.
+- `alt + backspace` for applying foreground color to entire layer.
+- `ctlr + backspace` for applying background color to entire layer.
+- for a smaller layer on top of main layer, to do all the above operations withing that confined area of that layer:
+    - make the layer a selection by `ctrl + lmb` on the layer in layers panel.
+    - check the 'lock transparent pixels' icon.
+
+# Pattern
+- Edit > fill > pattern gives more options than pattern panel.
+- to make own pattern make a square selection and then edit > define pattern.
+
+# Merge layers
+- `ctrl + alt + shift + E` for making a seperate merged layer of all the layers.
+- right click and merge down for merging 1by1. or `ctrl + alt + E`.
+
