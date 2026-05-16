@@ -59,9 +59,21 @@
 - use brush tool to adjust the mask (black/white) to hide/reveal parts of source image. whatever happens on mask doesn't directly apply on source.
 - `alt + click` on mask in layer panel shows the mask in main screen.
 - `shift + click` on mask in layer panel temporarily hides the mask.
+- `ctrl + I` to inverse the mask. (what was black will become white and vica-versa)
+- unlink mask and layer by clicking on chain icon. this lets you ctrl + T both mask and layer seperately.
+- `ctrl + click` on mask makes the selection out of it.
+- clipping mask allows you to apply adjustment layer only on 1 layer below it. or use it when inserting a pic inside any shape.
 
 # Refine Edge
 - used to refine edges of soft subject like hair which is not possible by normal selection tools.
 - select image, select quick select tool, go to 'layer and mask' option to go into new panel/window.
 - in this window first refine tool use then maybe contrast/feather n all and then export as new layer with mask.
 - double click on the mask in layer panel to back to that window and at bottom before export click 'decontaminize' then export, view both the mask layers.
+- to access older version of 'select and mask' called 'refined edge' go to select and shift + click on 'select and mask' option. (its destructive in nature.)
+
+# RGB Channel Selection
+- A technique for selection (like for skies), where we set the channel of layer to one which is most contrasting b/w dark and bright part.
+- then make a copy of this channel into layer panel and on it adjust curves (ctrl + L) for even more contrast (enhance difference b/w light and dark areas).
+- ctrl + click the channel duplicate to make selection, come back to layers panel and make mask from this selection.
+- use this mask now to adjust transperency and do whatever.
+- can directly select sky by going select > sky and then adjust curves even on the mask layer to remove spill or transparency.
