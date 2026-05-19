@@ -15,3 +15,9 @@
 
 4. transform
 - `ctrl + T` for free transform and then press enter when done.
+
+5. erase
+- mostly useless we use masks instead.
+- but 'erase to history' option checked erases all the work done to bring back original layer.
+    - if you use file > revert then all the layers you added (expect the very first one) are gone too. but with erase to history you can revert a single layer back to original
+- background erase tool: the crosshair samples the pixel data and circle delets that sampled pixel everywhere.
