@@ -46,3 +46,15 @@
 - motion blur after applying it whole image, create duplicate select & mask the subject and inverse the mask then paint it for better effect.
 - smart blur is like guassian but we have control over edges whether to blur them or not.
 - check out blur galler from filters.
+
+# Distort
+- displace: depth of texture layer carries over to top layer, not just simple blending.
+    - the texture layer should be first made black and white using adjustment, for making a displacement map. then saved alone as a psd file.
+    - then in new file add texture layer image + top layer image and do regular blending.
+    - then select top layer, convert to smart object and go to filter > distort > displace, then chose the earlier saved psd.
+    - blending: normal blend options in layer panel -> blend if -> distor > displace.
+- pinch: sort of like bevel and imboss. if you want the top layer to blend following the curvatur of below layer.
+- polar coordinate: covert a straight (rectangular) image into round (polar) and vica-versa. 
+    - anything above the straight pixels will go inside the circle.
+    - anything below the straight pixels will go outside the circle.
+    - the canvas should be sqaure dimensions for perfect circle or else it will be oval.
