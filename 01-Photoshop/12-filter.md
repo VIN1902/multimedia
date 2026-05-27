@@ -29,3 +29,20 @@
 - after the above tools few zig-zag pattern may appear to make that uniform use smoothing tool.
 - use warp tool to tilt forward (click) or backward (alt + click).
 - bucker and bloat expands or shrinks from center.
+
+# Blur
+- Blur: removes all the details/texture, mixes the general colors together.
+- blur tool is used for small cases such as smoothing hard edges of a cut-out.
+- sharpen tool does opposite of blur but still for small tasks.
+- workflow: duplicate -> smart object -> select and mask the subject + background -> filter > blur > guassian blur.
+    - adjustment and filters from menu on raster permanently changes the pixels, so we first convert it to smart object.
+    - for heavy bluring and background work we don't use the tool instead use filter menu.
+    - if you want to make a new background w/o the subject then select the general area of subject then edit > fill > content-aware.
+- lens blur only works on raster image. select and maske after duplicating.
+    - the thing in focus of camera will be in black and thing to be blurred by camera, out of focus, will be in white. (concept of depth map)
+    - blur focus distance is for bluring on in-focus subject.
+    - radius is for bluring out-of-focus subject.
+    - specular highlights add bokeh effect. When out of focus brightest point are made more brighter and defined into geometrical shapes like circles/hexagon.
+- motion blur after applying it whole image, create duplicate select & mask the subject and inverse the mask then paint it for better effect.
+- smart blur is like guassian but we have control over edges whether to blur them or not.
+- check out blur galler from filters.
