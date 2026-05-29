@@ -1,6 +1,7 @@
 # Basics
 - Ai is used for primarily shapes and texts.
 - in tools instead of foreground and background color we have fill and stroke.
+- `ctrl + U` for turning on auto guides.
 
 # Selection tool
 - `V` shortcut.
